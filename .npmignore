@@ -1,0 +1,14 @@
+node_modules/
+.test-output/
+data/
+recovered/
+recovered.*/
+codex-snapshots/
+snapshots/
+my-archive/
+*.db*
+*.sqlite*
+*.conversation.json
+.env*
+auth.json
+*.tgz

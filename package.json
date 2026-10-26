@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-history-recovery",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Recover ChatGPT Android SQLite history and browse it locally",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "recover": "node scripts/recover.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "files": ["lib/", "scripts/", "public/", "tests/", "server.mjs", "README.md", "LICENSE"],
+  "dependencies": {
+    "dompurify": "^3.2.7",
+    "marked": "^16.4.1"
+  }
+}

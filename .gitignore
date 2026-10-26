@@ -1,0 +1,40 @@
+# 本地依赖与测试产物
+node_modules/
+.test-output/
+coverage/
+*.log
+*.tgz
+
+# 用户输入、数据库及相关日志
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+.env
+.env.*
+auth.json
+
+# 恢复结果、原库复制件、旧输出与未完成输出
+recovered/
+recovered.*/
+my-archive/
+**/archive.sqlite*
+**/cache-sources/
+**/unparsed/
+*.conversation.json
+
+# 浏览器和 Codex 缓存副本、分析结果
+codex-snapshots/
+snapshots/
+snapshot-manifest.json
+*-report.json
+global-state*.json
+
+# 编辑器和系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
